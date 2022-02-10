@@ -7,7 +7,7 @@ RUN apt update && apt upgrade -y && apt install bind9 bind9utils dnsutils net-to
 #Copie des fichiers d'installations préparé et configuré
 COPY named.conf /etc/bind/
 
-COPY l1-1.ephec-ti.be /etc/bind/zones/
+COPY aled.fun /etc/bind/zones/
 
 #Exposition des ports de l'image sur le port 53 tcp et udp
 EXPOSE 53/udp
