@@ -18,8 +18,8 @@ ns1             IN      A       51.255.70.152
 ns2             IN      A       51.79.19.104
 
 ;Attribution des nom de domaine pour les sites web publiques
-www    IN    CNAME    a1         ; Web serveur
+www     IN    CNAME     a1       ; Web serveur
 
 ;Attribution du nom de domaine pour le mail
-mail    IN    A     10.2.2.25    ; Serveur mail
+mail    IN    CNAME     a1       ; Serveur mail
 @       IN    MX    10           mail.aled.fun.
